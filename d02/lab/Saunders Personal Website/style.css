@@ -44,7 +44,7 @@ div.copy{
   margin: 1em 2%;
 }
 
-div.nav_bar{
+div.nav-bar{
   display: block;
   border-left: solid 1px #011F26;
   border-right: solid 1px #011F26;
@@ -55,7 +55,7 @@ div.nav_bar{
   width: 90%;
 }
 
-h2.nav_tab_current{
+h2.nav-tab-current{
   display: inline-block;
   border: solid 1px #D5E7F2;
   background: #D5E7F2;
@@ -67,7 +67,7 @@ h2.nav_tab_current{
   font-size: 1em;
 }
 
-a.nav_tab {
+a.nav-tab {
   display: inline-block;
   border-top: solid 1px #D5E7F2;
   border-right: solid 1px #D5E7F2;
@@ -81,12 +81,12 @@ a.nav_tab {
   text-decoration: none;
 }
 
-a.nav_tab:hover, a.nav_tab:active, a.nav_tab:focus {
+a.nav-tab:hover, a.nav-tab:active, a.nav-tab:focus {
   background: #D5E7F2;
   color: #E74C3C;
 }
 
-div.video_container{
+div.video-container{
   height:0;
   width: 100%;
   padding-bottom:56.25%;
