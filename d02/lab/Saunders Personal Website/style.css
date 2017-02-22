@@ -1,0 +1,150 @@
+body{
+  background: #727A8C;
+  margin: 0 auto;
+  max-width: 750px;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+#grad{
+  background: #011F26;
+  background: -webkit-linear-gradient(#D5E7F2, #AAB1BF, #011F26);
+  background: -o-linear-gradient(#D5E7F2, #AAB1BF, #011F26);
+  background: -moz-linear-gradient(#D5E7F2, #AAB1BF, #011F26);
+  background: linear-gradient(#D5E7F2, #AAB1BF, #011F26);
+}
+
+h1{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+header{
+  border-top: solid 1px #011F26;
+  border-right: solid 1px #011F26;
+  border-left: solid 1px #011F26;
+  border-radius: 5px 5px 0 0;
+  background: #011F26;
+  color: #fff;
+  padding: 5px 2%;
+  margin: 1em auto 0 auto;
+  width: 90%;
+}
+
+div.content{
+  background: #D5E7F2;
+  border-left: solid 1px #011F26;
+  border-right: solid 1px #011F26;
+  color: #011F26;
+  padding: 5px 2% 10px 2%;
+  margin: 0 auto;
+  width: 90%;
+}
+
+div.copy{
+  margin: 1em 2%;
+}
+
+div.nav_bar{
+  display: block;
+  border-left: solid 1px #011F26;
+  border-right: solid 1px #011F26;
+  background: #011F26;
+  color: #fff;
+  padding: 5px 2% 0 2%;
+  margin: 0 auto;
+  width: 90%;
+}
+
+h2.nav_tab_current{
+  display: inline-block;
+  border: solid 1px #D5E7F2;
+  background: #D5E7F2;
+  border-radius: 4px 4px 0 0;
+  padding: 8px;
+  margin: 0 3px;
+  color:#011F26;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+a.nav_tab {
+  display: inline-block;
+  border-top: solid 1px #D5E7F2;
+  border-right: solid 1px #D5E7F2;
+  border-left: solid 1px #D5E7F2;
+  border-radius: 4px 4px 0 0;
+  background: #011F26;
+  padding: 8px;
+  margin: 0 3px;
+  color:#fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a.nav_tab:hover, a.nav_tab:active, a.nav_tab:focus {
+  background: #D5E7F2;
+  color: #E74C3C;
+}
+
+div.video_container{
+  height:0;
+  width: 100%;
+  padding-bottom:56.25%;
+  position: relative;
+  margin: 2% auto;
+}
+
+iframe.video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+a.link{
+  color: blue;
+}
+
+a.link:hover, a.link:active, a.link:focus {
+  color: #E74C3C;
+}
+
+div.copy{
+  margin: 1em 2%;
+}
+
+div.gallery{
+  text-align: center;
+}
+
+img.thumb{
+  width: 150px;
+  display: block;
+}
+
+a.thumb:hover, a.thumb:active, a.thumb:focus {
+  box-shadow: 0 0 2px 1px white;
+  background: #E74C3C;
+}
+
+a.thumb{
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 3px;
+  margin: 5px .5%;
+  width: 150px;
+  display: inline-block;
+}
+
+footer{
+  border: solid 1px #011F26;
+  border-radius: 0 0 5px 5px;
+  background: #011F26;
+  color: #fff;
+  padding: 5px 2%;
+  margin: 0 auto;
+  text-align: right;
+  width: 90%;
+}

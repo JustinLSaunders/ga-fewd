@@ -1,0 +1,20 @@
+h1.bold{
+  background: #00031F;
+  color: #fff;
+  padding: 8px 5px;
+  font-family: sans-serif;
+}
+
+img{
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+span.full_name{
+  white-space: nowrap;
+}
+
+p#emphasis{
+  font-style: italic;
+}
