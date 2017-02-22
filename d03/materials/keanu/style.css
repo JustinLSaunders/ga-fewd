@@ -5,13 +5,13 @@ h1.bold{
   font-family: sans-serif;
 }
 
-img{
+img#keanu-sandra{
   width: 60%;
   display: block;
   margin: 0 auto;
 }
 
-span.full_name{
+span.full-name{
   white-space: nowrap;
 }
 

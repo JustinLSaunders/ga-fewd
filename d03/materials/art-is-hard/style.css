@@ -1,0 +1,39 @@
+body{
+  font-family: 'Ariel', sans-serif;
+}
+
+h1.page-title{
+  color: #B9B9B9;
+  font-size: 3em;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+h2.subtitle{
+  color: #B9B9B9;
+  font-size: .75em;
+}
+
+h3.art-title{
+  color: #B9B9B9;
+  font-size: 1.75em;
+  font-weight: bold;
+  margin: 15px 0;
+
+}
+
+img.art{
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #666;
+}
+
+p.caption{
+  font-size: .75em;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+p.footer{
+  margin: 5px 0;
+  font-weight: bold;
+}
