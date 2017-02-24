@@ -152,7 +152,7 @@ footer{
   background: #011F26;
   color: #fff;
   padding: 5px 2%;
-  margin: 0 auto;
+  margin: 0 auto 1em auto;
   text-align: right;
   width: 100%;
 }
