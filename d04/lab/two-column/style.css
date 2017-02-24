@@ -26,7 +26,7 @@ header, footer{
   display: block;
 }
 
-div {
+div.col-1, div.col-2 {
   height: 250px;
   display: inline-block;
 }
