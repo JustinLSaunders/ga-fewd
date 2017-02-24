@@ -1,5 +1,5 @@
 header, div.col-1, div.col-2, footer{
-  margin: 5px auto;
+  margin: 5px 1%;
 }
 
 div.copy{
@@ -32,12 +32,10 @@ div {
 }
 
 div.col-1{
-  margin: 10px 2% 10px 0;
   width: 68%;
 }
 
 div.col-2{
-  margin: 10px 0;
-  width: 30%;
+  width: 28%;
 }
 
