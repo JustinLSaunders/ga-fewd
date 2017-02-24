@@ -1,0 +1,34 @@
+h1.title{
+  color: #fff;
+  background: #000;
+  font-size: 1em;
+  text-align: center;
+  padding: 10px;
+  margin: 0 0 25px 0;
+}
+
+div.container{
+  background: #DEDEDE;
+  padding: 10px;
+  width: 80%;
+  margin: 10px auto;
+}
+
+p{
+  background: #FF6347;
+  border: 2px solid #FF4900;
+  text-align: center;
+  padding: 10px;
+}
+
+p.p-blue{
+  color: blue;
+}
+
+p.p-green{
+  color: green;
+}
+
+p.p-yellow{
+  color: yellow;
+}

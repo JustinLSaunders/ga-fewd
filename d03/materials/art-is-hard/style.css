@@ -1,5 +1,9 @@
 body{
-  font-family: 'Ariel', sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  color: #B9B9B9;
 }
 
 h1.page-title{

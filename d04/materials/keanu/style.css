@@ -1,0 +1,46 @@
+h1 {
+  color: #7FDBFF;
+}
+
+div.block{
+  display: inline-block;
+  width: 60%;
+  text-align: center;
+  margin: 20px auto;
+  border: ridge 10px red;
+}
+
+div.red, div.orange, div.yellow, div.green, div.blue, div.violet{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: inline-block;
+}
+
+div.red{
+  background: red;
+}
+
+div.orange{
+  background: orange;
+}
+
+div.yellow{
+  background: yellow;
+}
+
+div.green{
+  background: green;
+}
+
+div.blue{
+  background: blue;
+}
+
+div.violet{
+  background: purple;
+}
+
+img{
+  width: 20%;
+}

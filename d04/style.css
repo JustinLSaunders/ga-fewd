@@ -1,0 +1,13 @@
+body{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.blue-header {
+  color: #fff;
+  background: #000533;
+  padding: 5px 8px;
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
