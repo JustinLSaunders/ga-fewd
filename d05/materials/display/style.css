@@ -1,0 +1,27 @@
+div.container {
+  width: 48%;
+  margin: 5px 1%;
+  display: inline-block;
+}
+
+.red-box {
+  height: 100%;
+  width: 94%;
+  padding: 9px 3%;
+  background: red;
+  border: solid 2px #000;
+}
+
+p.copy{
+  color: #fff;
+  margin: 0;
+}
+
+span.year{
+  color: green;
+  font-style: italic;
+}
+
+ul{
+  list-style: none;
+}

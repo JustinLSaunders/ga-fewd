@@ -16,14 +16,12 @@ h1{
 }
 
 div.content{
-  display: block;
   width: 80%;
   margin: 0 auto;
 }
 
 header, footer{
   height: 100px;
-  display: block;
 }
 
 div.col-1, div.col-2 {
@@ -38,4 +36,3 @@ div.col-1{
 div.col-2{
   width: 28%;
 }
-

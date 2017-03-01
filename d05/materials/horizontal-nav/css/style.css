@@ -1,0 +1,24 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.nav{
+  background: black;
+}
+
+a.nav-item{
+  transition: background 0.5s ease;
+  display: inline-block;
+  color: #cccccc;
+  height: 100%;
+  padding: 20px 2%;
+  margin: 0;
+  text-decoration: none;
+  }
+
+a.nav-item:hover{
+  color: #fff;
+  background: #ff7401;
+  height: 100%;
+}
