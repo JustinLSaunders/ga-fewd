@@ -171,6 +171,7 @@ img{
 
 .copy-text::first-letter { 
     font-size: 5.25em;
+    font-weight: 300;
     color: #ddd;
     vertical-align: top;
     float: left;
