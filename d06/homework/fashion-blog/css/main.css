@@ -1,0 +1,203 @@
+body{
+  font-family: 'Lato', sans-serif;
+  color: #444;
+  line-height: 1.5em;
+}
+
+@media (min-width: 768px) {
+  .container-fluid{
+    margin: 0 10%;
+  }
+
+  .h1-query {
+    font-size: 5em;
+  }
+  .top-nav-item{
+    font-size: 1.17em;
+    padding: 15px 0;
+  }
+
+  .sidebar{
+    padding: 0 0 0 4%;
+  }
+
+  #bottom-nav-hr{
+    display: none;
+  }
+
+  .sidebar-ad-img{
+    width: 96%;
+    margin: 0 2%;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-fluid{
+    margin: 0 2%;
+  }
+
+  .h2-query {
+    font-size: 1em;
+  }
+  .top-nav-item{
+    font-size: 1em;
+    padding: 5px 0;
+  }
+
+  .sidebar{
+    padding: 0;
+  }
+
+  #sidebar-ad-hr{
+    display: none;
+  }
+
+  #bottom-nav-hr{
+    display: block;
+  }
+
+  .sidebar-ad-img{
+    width: 94%;
+    padding: .5em 6% 0 0;
+  }
+
+  ul{
+    padding-left: 20px;
+  }
+  
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+.row{
+  margin: 0;
+}
+
+.container{
+  margin: 1.5em 0;
+  padding: 0;
+}
+
+#querything{
+  color: #df1800; 
+}
+
+h1{
+  color: #df1800;
+  display: inline-block;
+  margin-right: 1%;
+}
+
+h2{
+  color: #888;
+  display: inline-block;
+  margin: 0;
+}
+
+h4{
+  font-weight: bold;
+}
+
+.copy{
+  padding: 0;
+}
+
+.date{
+  color: #ccc;
+}
+
+.continue-link{
+  display: block;
+  font-weight: bold;
+  text-align: right;
+  color: #df1800;
+}
+
+.continue-link:hover{
+  color: #df1800;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #666;
+}
+
+img{
+  width: 100%;
+}
+
+.top-nav{
+  background: black;
+}
+
+.top-nav-item{
+  color: #fff;
+  text-align: center;
+  border-top: solid 1px #fff;
+  border-left: solid 1px #fff;
+}
+
+.top-nav-item:hover{
+  background: #aa0000;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.copy-text{
+  margin: 1em 0;
+}
+
+.copy-text::first-letter { 
+    font-size: 5.25em;
+    color: #ddd;
+    vertical-align: top;
+    float: left;
+    margin-top: -10px;
+    line-height: 1em;
+}  
+
+.bottom-nav-bar{
+  padding: 0;
+}
+
+.bottom-nav-item{
+  padding: 0 1%;
+  display: inline-block;
+  color: #df1800;
+  border-right: solid 1px #babbd4;
+}
+
+#home{
+  padding-left: 0;
+}
+
+#tips{
+  border: none;
+}
+
+li{
+  color: #888;
+}
+
+.pop{
+  color: #df1800;
+}
+
+.sidebar{
+  margin-top: 1.5em;
+  color: #888;
+}
+
+.sidebar-ad-img{
+  width: 96%;
+  margin: 0 2%;
+}
+
+footer{
+  color: #bbb;
+  margin-top: 10px;
+}
+
+.sidebar-about, .sidebar-ad, .sidebar-popular{
+  padding: 0;
+}
