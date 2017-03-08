@@ -1,0 +1,60 @@
+body{
+  font-family: sans-serif;
+}
+
+.container{
+  margin: 10px auto;
+  max-width: 720px
+}
+
+.header{
+  background: yellow;
+  padding: 20px 2%;
+}
+
+h1, .nav{
+  display: inline-block;
+  margin: 0;
+  padding: 0; 
+  width: 48%;
+}
+
+.nav{
+  margin-top: 15px;
+  text-align: right;
+}
+
+.nav a{
+  font-size: 1.15em;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  margin: 0 5px;
+  display: inline-block;
+}
+
+.article{
+  width: 46%;
+  margin: 10px 2%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+@media (max-width: 480px) {
+  h1, .nav, .article{
+    width: 100%;
+    display: block;
+  }
+
+  h1, .nav{
+    text-align: center;
+  }
+
+  h1{
+    padding: 0;
+  }
+
+.container{
+  margin: 0;
+  }
+}
