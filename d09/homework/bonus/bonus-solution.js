@@ -1,4 +1,4 @@
-while ((d.x >= 0) && (d.y >= 0) && ((d.x === 19) || (g.at(d.x +1, d.y) !== "color green")) && ((d.x === 0) || (g.at(d.x - 1, d.y) !== "color green")) && ((d.y === 19) || (g.at(d.x, d.y + 1) !== "color green")) && ((d.y === 0) || (g.at(d.x, d.y - 1) !== "color green"))) {
+while (((d.x === 19) || (g.at(d.x +1, d.y) !== "color green")) && ((d.x === 0) || (g.at(d.x - 1, d.y) !== "color green")) && ((d.y === 19) || (g.at(d.x, d.y + 1) !== "color green")) && ((d.y === 0) || (g.at(d.x, d.y - 1) !== "color green"))) {
   if ((d.orientation === "right") && (d.x !== 19) && (g.at(d.x + 1, d.y) === 0)) {
     d.orient("right");
     d.move();
