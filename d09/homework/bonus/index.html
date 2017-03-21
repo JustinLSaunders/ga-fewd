@@ -10,13 +10,13 @@
 
     .grid .row {
       margin: 0 0 1px 0;
-      height: 30px;
+      height: 32px;
     }
 
     .grid .piece {
       margin: 0;
-      height: 30px;
-      width: 30px;
+      height: 32px;
+      width: 32px;
       border: 1px black dotted;
       display: inline-block;
     }
@@ -26,7 +26,7 @@
     }
 
     .piece.traveler {
-      background: url(./dwarf.gif) 0 0 no-repeat;
+      background: url(./dwarf.gif) 0 1px no-repeat;
       background-size: 32px;
     }
     .traveler.down {
@@ -36,7 +36,7 @@
       transform: scaleX(-1);
     }
     .traveler.up {
-      transform: rotate(270deg);
+      transform: rotate(270deg) scaleY(-1);
     }
   </style>
 </head>
