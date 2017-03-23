@@ -8,15 +8,21 @@
 <body>
   <h1>Guess the Number!</h1>
   <p>I'm thinking of a number between 1 and 10. Try to guess it.</p>
-  <input type="text"/>
-  <button>Guess</button>
   <section>
-    <p id="right-response">You're right! Great job!</p>
-    <p id="wrong-response">Sorry, that's not it. I was thinking of <span id="right-number"></span>. Try again.</p>
+    <input type="text"/>
+    <button>Guess</button>
   </section>
   <section>
-    <p>Correct Guesses: <span id="right-count"></span></p>
-    <p>Incorrect Guesses: <span id="wrong-count"></span></p>
+    <p id="starting-text">What could it be?</p>
+    <p id="right-response">You're right! Get out of my head!</p>
+    <p id="wrong-response">Sorry, but defintely wrong! I was thinking of <span class="right-number"></span>. Give it another shot.</p>
+    <p id="close-response">You were so close! I was thinking of <span class="right-number"></span>. Try again!</p>
+    <p id="no-response">Try a number between 1 and 10.</p>
+  </section>
+  <section>
+    <p>Correct Guesses: <span id="right-count">0</span></p>
+    <p>Incorrect Guesses: <span id="wrong-count">0</span></p>
+    <p>Total Guesses: <span id="total-count">0</span></p>
   </section>
   <script type="text/javascript" src="./js/guess-the-number.js"></script>
 </body>
