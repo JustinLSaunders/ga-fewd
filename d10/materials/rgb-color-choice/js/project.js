@@ -1,4 +1,6 @@
 var originalColorfulText = "rgb(0,0,0)"
+var min = Math.ceil(0);
+var max = Math.floor(255);
 
 $("#color-button").on("click", function() {
     var red = $("#red").val();
@@ -10,9 +12,9 @@ $("#color-button").on("click", function() {
   });
 
 $("#color-random").on("click", function() {
-    var randomRed = Math.floor((Math.random() * 255) + 0);
-    var randomGreen = Math.floor((Math.random() * 255) + 0);
-    var randomBlue = Math.floor((Math.random() * 255) + 0);
+    var randomRed = Math.floor(Math.random() * (max - min + 1)) + min;
+    var randomGreen = Math.floor(Math.random() * (max - min + 1)) + min;
+    var randomBlue = Math.floor(Math.random() * (max - min + 1)) + min;
     $("#red").val(randomRed);
     $("#green").val(randomGreen);
     $("#blue").val(randomBlue);
