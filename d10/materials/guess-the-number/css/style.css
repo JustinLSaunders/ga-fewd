@@ -1,0 +1,14 @@
+#right-count, #wrong-count {
+  display: inline-block;
+  border-bottom: 1px solid #666;
+  min-width: 1rem;
+  text-align: center;
+}
+
+#right-response, #wrong-response, #guessCount {
+  display: none;
+}
+
+section {
+  display: block;
+}

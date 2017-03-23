@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Guess the Number!</title>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+  <h1>Guess the Number!</h1>
+  <p>I'm thinking of a number between 1 and 10. Try to guess it.</p>
+  <input type="text"/>
+  <button>Guess</button>
+  <section>
+    <p id="right-response">You're right! Great job!</p>
+    <p id="wrong-response">Sorry, that's not it. I was thinking of <span id="right-number"></span>. Try again.</p>
+  </section>
+  <section>
+    <p>Correct Guesses: <span id="right-count"></span></p>
+    <p>Incorrect Guesses: <span id="wrong-count"></span></p>
+  </section>
+  <script type="text/javascript" src="./js/guess-the-number.js"></script>
+</body>
+</html>
