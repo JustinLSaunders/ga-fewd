@@ -2,6 +2,7 @@ header{
   background: black;
   color: white;
   display: block;
+  border: solid 4px black;
 }
 
 h1{
@@ -18,11 +19,56 @@ h1{
 nav{
   display: inline-block;
   text-align: right;
-  padding-top: 25px;
 }
 
-a{
+a.nav-item{
   color: white;
+  margin: 0 2%;
+  display: inline-block;
+}
+
+.hamburger-container{
+  display: none;
+}
+
+.hamburger-icon{
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
   text-align: right;
-  margin: 0 5px;
+  line-height: 0;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .hamburger-container{
+    display: inline-block;
+    text-align: right;
+    padding: 25px 2%;
+  }
+
+  .hamburger-icon{
+    display: inline-block;
+    text-align: right;
+  }
+
+  a.nav-item {
+    text-align: center;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+  }
+
+  .nav-item:hover, .nav-item:focus{
+    background: white;
+    color: black;
+    font-weight: bold;
+  }
+
+  nav {
+    display: none;
+
+  }
+
 }
