@@ -1,0 +1,28 @@
+header{
+  background: black;
+  color: white;
+  display: block;
+}
+
+h1{
+  margin: 0;
+  padding: 0;
+}
+
+.title{
+  display: inline-block;
+  margin: 0;
+  padding: 15px 2.5%;
+}
+
+nav{
+  display: inline-block;
+  text-align: right;
+  padding-top: 25px;
+}
+
+a{
+  color: white;
+  text-align: right;
+  margin: 0 5px;
+}

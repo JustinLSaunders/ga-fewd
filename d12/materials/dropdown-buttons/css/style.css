@@ -1,0 +1,51 @@
+div.file-parent, div.edit-parent{
+  position: relative;
+  display: inline-block;
+}
+
+a.button-file, a.button-edit{
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.25rem;
+  display: inline-block;
+  border: solid 1px #c0c0c0;
+  width: 75px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+a.button-file:hover, a.button-file:focus, a.button-edit:hover, a.button-edit:focus{
+  background: #f1f1f1;
+}
+
+div.file-options, div.edit-options {
+  border-radius: 5px;
+  padding: 10px 0;
+  border: solid 1px #c0c0c0;
+  box-shadow: 0 3px 3px grey;
+  width: 145px;
+  display: none;
+  position: absolute;
+  background: white;
+  margin-top: 5px;
+}
+
+a {
+  display: block;
+  padding: 5px 10px;  
+  color: #000;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+a:hover, a:focus{
+  background: #f1f1f1;
+}
+
+div.file-menu, div.edit-menu {
+  display: inline-block;
+}
+
+.down-arrow{
+  font-size: .75rem;
+}
