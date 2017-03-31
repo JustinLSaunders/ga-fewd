@@ -1,0 +1,56 @@
+html{
+  font-family: sans-serif;
+}
+
+.authenticate{
+  background: white;
+  border-radius: 5px;
+  width: 300px;
+  display: none;
+  margin: 0 auto;
+  border: solid 1px #666;
+  padding: 15px;
+  z-index: 2;
+}
+
+h2.auth-title{
+  font-size: 1.25rem;
+  border-bottom: 1px solid black;
+  margin: 0 0 10px 0;
+  padding-bottom: 10px;
+}
+
+input{
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: block;
+  margin: 10px 0;
+  width: 276px;
+  border: solid 2px #bababa;
+}
+
+a.sign-in-button, a.cancel-button{
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: .85rem;
+  display: inline-block;
+}
+
+a.sign-in-button{
+  background: green;
+  margin-right: 10px;
+}
+
+a.cancel-button{
+  background: black;
+}
+
+div.lightbox{
+  display: block;
+  background: black;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}

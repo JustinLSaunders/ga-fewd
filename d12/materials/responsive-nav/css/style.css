@@ -1,55 +1,56 @@
 header{
   background: black;
   color: white;
-  display: block;
   border: solid 4px black;
+  position: relative;
 }
 
 h1{
   margin: 0;
   padding: 0;
+  font-weight: bold;
 }
 
-.title{
-  display: inline-block;
+div.title{
   margin: 0;
-  padding: 15px 2.5%;
+  padding: 15px 10px;
 }
 
 nav{
-  display: inline-block;
   text-align: right;
+  display: inline-block;
+  width: 166px;
+  margin: 25px 2%;
 }
 
 a.nav-item{
   color: white;
   margin: 0 2%;
-  display: inline-block;
 }
 
 .hamburger-container{
-  display: none;
+  position: absolute;
+  top: 30px;
+  right: 25px;
 }
 
 .hamburger-icon{
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: bold;
-  text-align: right;
   line-height: 0;
   color: white;
+  display: none;
 }
 
 @media (max-width: 767px) {
-  .hamburger-container{
-    display: inline-block;
-    text-align: right;
-    padding: 25px 2%;
+
+  .title{
+    margin-left: 20px;
   }
 
   .hamburger-icon{
     display: inline-block;
-    text-align: right;
   }
 
   a.nav-item {
@@ -65,9 +66,11 @@ a.nav-item{
     color: black;
     font-weight: bold;
   }
-
   nav {
     display: none;
   }
 
+  .nav-mobile {
+    display: block;
+  }
 }
