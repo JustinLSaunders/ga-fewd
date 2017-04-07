@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Weather Checker</title>
+
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+		<section>
+			<h1>Check the Weather</h1>
+
+			<input type="text">
+
+			<button>Check!</button>
+
+			<h4>
+				<h2>Currently</h2>
+				<img class="icon" src="">
+				<span class="temperature"></span>
+				<p class="description"><span class="description-copy"></span></p>
+			</h4>
+		</section>
+
+		<section class="forecast-container">
+			<hr>
+			<h2>24-hour forecast (in 3-hour intervals)</h2>
+			<div class="forecast-interval" id="interval-0">
+				<h3>3 hours</h3>
+				<img class="icon" id="icon-int0" src="">
+				<span class="temp-interval" id="temp-int0"></span>
+				<p class="description"><span class="description-copy0"></span></p>
+			</div>
+			<div class="forecast-interval" id="interval-1">
+				<h3>6 hours</h3>
+				<img class="icon" id="icon-int1" src="">
+				<span class="temp-interval" id="temp-int1"></span>
+				<p class="description"><span class="description-copy1"></span></p>
+			</div>
+			<div class="forecast-interval" id="interval-2">
+				<h3>9 hours</h3>
+				<img class="icon" id="icon-int2" src="">
+				<span class="temp-interval" id="temp-int2"></span>
+				<p class="description"><span class="description-copy2"></span></p>
+			</div>
+			<div class="forecast-interval" id="interval-3">
+				<h3>12 hours</h3>
+				<img class="icon" id="icon-int3" src="">
+				<span class="temp-interval" id="temp-int3"></span>
+				<p class="description"><span class="description-copy3"></span></p>
+			</div>
+			<div class="forecast-interval" id="interval-4">
+				<h3>15 hours</h3>
+				<img class="icon" id="icon-int4" src="">
+				<span class="temp-interval" id="temp-int4"></span>
+				<p class="description"><span class="description-copy4"></span></p>
+			</div>
+			<div class="forecast-interval" id="interval-5">
+				<h3>18 hours</h3>
+				<img class="icon" id="icon-int5" src="">
+				<span class="temp-interval" id="temp-int5"></span>
+				<p class="description"><span class="description-copy5"></span></p>
+			</div>
+			<div class="forecast-interval" id="interval-6">
+				<h3>21 hours</h3>
+				<img class="icon" id="icon-int6" src="">
+				<span class="temp-interval" id="temp-int6"></span>
+				<p class="description"><span class="description-copy6"></span></p>
+			</div>
+			<div class="forecast-interval" id="interval-7">
+				<h3>24 hours</h3>
+				<img class="icon" id="icon-int7" src="">
+				<span class="temp-interval" id="temp-int7"></span>
+				<p class="description"><span class="description-copy7"></span></p>
+			</div>
+		</section>
+
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+	</body>
+</html>
