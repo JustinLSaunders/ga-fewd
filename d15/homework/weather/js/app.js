@@ -9,6 +9,8 @@ $("button").on("click", function() {
       var icon = (data["weather"][0]["icon"]);
 
       console.log(data);
+
+      $("span#location").text(data["name"] + ", " + data["sys"]["country"]);
       
       $("span.description-copy").text(data["weather"][0]["description"]);
 
