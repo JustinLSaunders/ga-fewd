@@ -1,8 +1,8 @@
+var historyList = [];
+
 $("button").on("click", function() {
   
-  var historyList = [];
-
-  var userInput = $("input").val();
+    var userInput = $("input").val();
 
   $.getJSON("http://omdbapi.com/?t=" + userInput, function(data) {
 
@@ -11,7 +11,7 @@ $("button").on("click", function() {
 
     $(".title").text(titleAndRating);
     $(".search-history").append(addLi);
-    $(historyList).push(addLi);
+    (historyList).push(addLi);
     $(".year").text(data["Year"]);
     $(".poster").attr("src", data["Poster"]);
     $(".plot").text(data["Plot"]);
