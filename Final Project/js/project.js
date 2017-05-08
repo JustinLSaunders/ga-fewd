@@ -1,29 +1,54 @@
-var withGrade = [];
-var sortedByDate = [];
-
 $("button").on("click", function() {
   var userInput = $("input").val();
   var userBoro = $("#boro").val();
 
   $.getJSON("https://data.cityofnewyork.us/resource/43nn-pn8j.json?$q=" + userInput + "&boro=" + userBoro, function(data) {
-      var dataIndex = 0;
 
-      var gradeAvailable = ["grade"] in data[dataIndex];
+    var withGrades = _.filter(data, function(restaurant) {
+      return restaurant["grade"];
+    });
 
-      var gradedRestaurant = {
-          grade: data[dataIndex]["grade"],
-          violation: data[dataIndex]["violation_description"],
-        }
+    var dateSorted = _.sortBy(withGrades, function(restaurant) {
+      return new Date(restaurant["grade_date"])
+    });
+
+    console.log(dateSorted);
+
+    var lastSortedIndex = dateSorted.length - 1;
+
+    console.log(lastSortedIndex);
+
+    $("span#dba-name").text(dateSorted[lastSortedIndex]["dba"]);
+
+    $("span#violations").text(dateSorted[lastSortedIndex]["violation_description"]);
+
+    $("img.certificate").attr("src", "./img/" + dateSorted[lastSortedIndex]["grade"] + ".png")
+
+
+      // var lastIndex = withGrade.length - 1;
+
+      // console.log(lastIndex);
+      // var dataIndex = 0;
+
+      // var gradeAvailable = ["grade"] in data[dataIndex];
+
+      // var gradedRestaurant = {
+      //     grade: data[dataIndex]["grade"],
+      //     violation: data[dataIndex]["violation_description"],
+      //   }
           
-      while (dataIndex < data.length) {
+      // while (dataIndex < data.length) {
 
-        _.filter(data, gradeAvailable = true);
+      //   _.filter(data, function(filter);
 
-        withGrade.push(data);
+      //   if (gradeAvailable = true) {
+      //     withGrade.push(data);
  
+      //     dataIndex = dataIndex + 1;
+      //   }
 
-        dataIndex = dataIndex + 1;
-      }
+        
+      // })
   });
 });
 
