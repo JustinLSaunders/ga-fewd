@@ -34,6 +34,8 @@ $("button").on("click", function() {
 
         $("span.description-copy" + interval).text(data["list"][interval]["weather"][0]["description"]);
 
+        $("span.humidity-copy" + interval).text("Humidity: " + data["list"][interval]["main"]["humidity"] + "%");
+
         interval = interval + 1;
       }
     });
